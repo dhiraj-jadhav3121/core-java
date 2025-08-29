@@ -1,5 +1,6 @@
 package forLoops;
 
+
 public class KstarPrint {
     public static void main(String[] args) {
         int n = 7;
@@ -15,6 +16,7 @@ public class KstarPrint {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
+
                 }
             }
             System.out.println();
