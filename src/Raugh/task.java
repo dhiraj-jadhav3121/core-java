@@ -19,7 +19,7 @@ public class task {
             System.out.println("Guess the number between 1 to 100");
             System.out.println("You have " + maxAttempt + " attempts");
             while (guess != num && countAttempt < maxAttempt) {
-                System.out.println("Enter the guess");
+                System.out.println("Guess your Number");
                 guess = sc.nextInt();
                 countAttempt++;
                 if (guess < num)
