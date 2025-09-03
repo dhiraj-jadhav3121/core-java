@@ -11,12 +11,14 @@ public class MySqlConnections {
 
 
         try {
+
             Class.forName("com.mysql.cj.jdbc.Driver");
             // user --> root ,pass-> Amol@1234
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/academy", "root", "Amol@1234");
 
 
             System.out.println("SuccessFully Connected...!");
+
 
             statement = connection.createStatement();  // [select * from employee ]
 
