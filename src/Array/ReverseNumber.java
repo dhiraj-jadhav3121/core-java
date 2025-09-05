@@ -1,6 +1,5 @@
 package Array;
 
-import java.io.Serializable;
 import java.util.Scanner;
 
 public class ReverseNumber {
