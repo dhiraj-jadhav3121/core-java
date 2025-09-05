@@ -1,8 +1,10 @@
 package Array;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
 public class ReverseNumber {
+
     //2. WAP to accept 10 numbers and print in reverse order.
 
     public static void main(String[] args) {
