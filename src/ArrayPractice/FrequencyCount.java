@@ -9,6 +9,7 @@ public class FrequencyCount {
                 if (numbers[i] == numbers[j]) {
                     count++;
                 }
+
             }
             if (count == 1) {
                 System.out.println(numbers[i] + " " + count);
