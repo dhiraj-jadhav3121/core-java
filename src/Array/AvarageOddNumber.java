@@ -8,6 +8,7 @@ public class AvarageOddNumber {
 
         int number[]= {13,15,17,22,44,33};
 
+
         int sum=0;
         for(int i=0;i< number.length;i++){
 
