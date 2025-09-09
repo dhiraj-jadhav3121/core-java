@@ -3,6 +3,7 @@ package Raugh;
 public class Array {
     public static void main(String[] args) {
 
+
         int array[] = {8765,1,8, 3, 5, 7, 9, 26, 6,87};
         int largest = array[0];
         int smallest = array[0];
